@@ -1,5 +1,5 @@
 import { get } from 'lodash';
-import { setWith } from 'lodash/fp';
+import { setWith, assign } from 'lodash/fp';
 import { actionTypes } from '../constants';
 import { pathFromMeta, preserveValuesFromState } from '../utils/reducers';
 
